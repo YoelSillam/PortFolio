@@ -1,0 +1,149 @@
+#conteneur
+{
+    border: medium black inset;
+    width: 800px;
+    height: 1300px;
+    margin: 0px auto 0px auto;
+    position: relative;
+}
+#entete
+{
+    background-color: lightgray;
+    width: 500px;
+    height: 110px;
+    text-align: center;
+    margin-left: 300px;
+
+}
+
+
+#contenuDroite
+{
+    width: 500px;
+    height: 1000px;
+    background-color: whitesmoke;
+    float: left;
+}
+#planGauche
+{
+    height: 1200px;
+    width: 300px;
+    background-color: cornflowerblue;
+    float: left;
+    margin-top: -110px;
+}
+#pied{
+    width: 800px;
+    height: 200px;
+    margin-left: -300px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    text-align: center ;
+}
+span {
+    font-size: 2.5em;
+}
+
+.blanc{
+    text-shadow:   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px 1px 10px #141414;color:#fff;
+    text-align: center;
+}
+.images {
+    display: inline;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+.img {
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+a[href^='mailto']::before {
+    content: '📧 ';
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+}
+
+a[href^='add']::before {
+    content: '📍 ';
+
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.pa {
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.section{
+    margin-bottom: 1.5rem;
+    margin-left: 10px;
+
+
+}
+
+.color
+{
+    color: crimson;
+    font-style: italic;
+}
+.skills{
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin: 0 0 1rem;
+}
+.content{
+    grid-area: content;
+    padding: 50px;
+}
+.experience-list{
+    list-style-type: circle;
+}
+.text-blue{
+    color: #4472C4;
+}
+.text-black{
+    color: black;
+    margin-right: 400px;
+
+}
+
+.gauche
+{
+    text-align: left;
+}
+.milieu
+{
+    margin-bottom: 1.5rem;
+    margin-left: 30px;
+}
+.im
+{
+    display: inline;
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+
+
+}
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
